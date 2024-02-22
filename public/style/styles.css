@@ -1,0 +1,59 @@
+/* CCD3CA
+B5C0D0 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{overflow: hidden;}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+ background-image: linear-gradient(to left,#ccd3cabb,#b5c0d084) ,url('/pexels-pixabay-534283.jpg');
+ background-size: cover;
+position: relative;
+height: 90vh;
+background-position: top;
+}
+button{
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    border: 1px solid ;
+    background-color:#F5E8DD ;
+    
+   
+
+}
+div{
+    display: flex;
+    gap:9px ;
+    
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color: #b5c0d062;
+   
+
+}
+button:active{
+   
+    background-color: #ccd3ca86;
+    
+}
+.next,.replay{
+    background-color: #b5c0d084;
+    padding: 10px;
+}
+.next,.replay:hover{
+background-color:#b5c0d084 ;
+color: white;
+transform: scale(1);
+}
+
